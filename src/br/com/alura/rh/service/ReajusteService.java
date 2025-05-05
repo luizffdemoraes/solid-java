@@ -8,6 +8,7 @@ import java.math.RoundingMode;
 
 public class ReajusteService {
 
+    // SRP - Single Responsibility Principle
     public void reajustarSalarioDoFuncionario(Funcionario funcionario, BigDecimal aumento) {
 
         BigDecimal salarioAtual = funcionario.getSalario();
