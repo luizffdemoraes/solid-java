@@ -8,6 +8,7 @@ import br.com.alura.rh.ValidacaoException;
 
 public class Funcionario {
 
+	private DadosPessoais dadosPessoais;
 	private String nome;
 	private String cpf;
 	private Cargo cargo;
